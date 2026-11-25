@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aditivos: Lector de códigos E — Ayuda y Guía</title>
+<link rel="canonical" href="https://hayriodabas.github.io/additives-help/es-ES/help.html">
+<style>:root {
+  color-scheme: light dark;
+  --paper: #f4f1e8;
+  --sheet: #fffdf7;
+  --well: #ebe6da;
+  --hair: #dad4c6;
+  --ink: #151b19;
+  --ink2: #58615d;
+  --brine: #0b6459;
+  --brine-wash: #d7ebe5;
+  --marker: #f5cf45;
+  --on-marker: #141a1a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #111413;
+    --sheet: #1a1e1d;
+    --well: #242928;
+    --hair: #2f3634;
+    --ink: #efebe1;
+    --ink2: #a6aeaa;
+    --brine: #5bbfb0;
+    --brine-wash: #183631;
+    --marker: #f5cf45;
+    --on-marker: #141a1a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16.5px/1.64 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.docket-rule-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+}
+.docket-rule-heavy {
+  height: 6px;
+  background: var(--ink);
+}
+.docket-rule-thin {
+  height: 1px;
+  margin-top: 3px;
+  background: var(--ink);
+  opacity: 0.7;
+}
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 20px 20px 68px;
+}
+.kicker {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--marker);
+  color: var(--on-marker);
+}
+h1 {
+  font-size: 36px;
+  line-height: 1.12;
+  font-weight: 700;
+  margin: 12px 0 8px;
+  letter-spacing: -0.015em;
+}
+.lede {
+  font-size: 18px;
+  color: var(--ink2);
+  margin: 0 0 22px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  padding: 12px 0;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--hair);
+  margin-bottom: 28px;
+  font-size: 14.5px;
+  font-weight: 600;
+}
+a {
+  color: var(--brine);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+h2 {
+  font-size: 20px;
+  line-height: 1.25;
+  margin: 30px 0 12px;
+  font-weight: 700;
+}
+.card {
+  background: var(--sheet);
+  border: 1px solid var(--hair);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 12px 0;
+}
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.card p {
+  margin: 0;
+  color: var(--ink2);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--sheet);
+  border: 1px solid var(--hair);
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 12px 0 24px;
+}
+td, th {
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--hair);
+  text-align: left;
+  vertical-align: top;
+}
+tr:last-child td { border-bottom: none; }
+td strong { color: var(--ink); font-weight: 600; }
+ol {
+  padding-left: 20px;
+  margin: 12px 0 24px;
+}
+li { margin: 10px 0; }
+ul.langs {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+ul.langs li {
+  margin: 0;
+  background: var(--sheet);
+  border: 1px solid var(--hair);
+  border-radius: 12px;
+  padding: 13px 16px;
+}
+footer {
+  margin-top: 44px;
+  padding-top: 16px;
+  border-top: 1px solid var(--hair);
+  font-size: 13px;
+  color: var(--ink2);
+}
+</style>
+</head>
+<body>
+<div class="docket-rule-wrap" aria-hidden="true"><div class="docket-rule-heavy"></div><div class="docket-rule-thin"></div></div>
+<main>
+  <div class="kicker">Aditivos: Lector de códigos E</div>
+  <h1>Ayuda y Guía</h1>
+  <p class="lede">Lee listas de ingredientes en el dispositivo, marca tus aditivos vigilados y consulta los avisos legales de la UE sin internet.</p>
+  <nav>
+    <a href="help.html">Ayuda</a>
+    <a href="privacy.html">Privacidad</a>
+    <a href="../index.html">Todos los idiomas</a>
+  </nav>
+  <h2>Cómo funciona Aditivos</h2>
+  <ol><li><strong>Leer una etiqueta</strong> — Apunta con la cámara a la lista de ingredientes en la pestaña Leer; los códigos E y nombres se marcan en directo. También puedes elegir una foto o pegar texto.</li><li><strong>Priorizar lo que vigilas</strong> — Elige hasta 3 códigos E gratis en Qué vigilar, o grupos enteros con Aditivos Pro. Siempre aparecen primero y en amarillo.</li><li><strong>Avisos legales de la UE</strong> — Muestra requisitos legales (sulfitos &gt;10 mg/kg, seis colorantes infantiles Reg. (CE) 1333/2008 art. 24 y anexo V, fenilalanina, polioles &gt;10 %) y códigos fuera de la lista UE (E171, E128).</li><li><strong>Diccionario de 339 números E</strong> — Consulta funciones, estado en la UE, nombres en 12 idiomas y origen sin puntuaciones ni consejos médicos.</li><li><strong>Aditivos Pro (compra única)</strong> — Añade grupos completos, lecturas guardadas con nombre, comparación lado a lado, favoritos y exportación de texto.</li></ol>
+  <h2>Preguntas frecuentes</h2>
+  <div class="card"><h3>¿Se suben las fotos a internet?</h3><p>No. Todo el reconocimiento se hace en el dispositivo y las imágenes se descartan de inmediato.</p></div><div class="card"><h3>¿Ofrece notas o consejos de salud?</h3><p>No. Solo muestra información objetiva del registro de la UE consolidado al 18 de agosto de 2026.</p></div><div class="card"><h3>¿Lee etiquetas extranjeras?</h3><p>Sí. Detecta 12 idiomas, números INS sin la letra E y colorantes estadounidenses como Red 40.</p></div><div class="card"><h3>Restaurar compra</h3><p>Entra en Ajustes › Restaurar compra con la misma cuenta de Apple. Reembolsos en reportaproblem.apple.com.</p></div>
+  <h2>Contacto</h2>
+  <p>Dudas o sugerencias sobre Aditivos: <a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a>.</p>
+  <footer>Actualizado: 25 de noviembre de 2026 · Aditivos (app.klarwerk.additives) · Hayri Odabaş</footer>
+</main>
+</body>
+</html>

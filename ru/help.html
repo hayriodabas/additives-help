@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Пищевые добавки: E-коды — Справка и руководство</title>
+<link rel="canonical" href="https://hayriodabas.github.io/additives-help/ru/help.html">
+<style>:root {
+  color-scheme: light dark;
+  --paper: #f4f1e8;
+  --sheet: #fffdf7;
+  --well: #ebe6da;
+  --hair: #dad4c6;
+  --ink: #151b19;
+  --ink2: #58615d;
+  --brine: #0b6459;
+  --brine-wash: #d7ebe5;
+  --marker: #f5cf45;
+  --on-marker: #141a1a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #111413;
+    --sheet: #1a1e1d;
+    --well: #242928;
+    --hair: #2f3634;
+    --ink: #efebe1;
+    --ink2: #a6aeaa;
+    --brine: #5bbfb0;
+    --brine-wash: #183631;
+    --marker: #f5cf45;
+    --on-marker: #141a1a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16.5px/1.64 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.docket-rule-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+}
+.docket-rule-heavy {
+  height: 6px;
+  background: var(--ink);
+}
+.docket-rule-thin {
+  height: 1px;
+  margin-top: 3px;
+  background: var(--ink);
+  opacity: 0.7;
+}
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 20px 20px 68px;
+}
+.kicker {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--marker);
+  color: var(--on-marker);
+}
+h1 {
+  font-size: 36px;
+  line-height: 1.12;
+  font-weight: 700;
+  margin: 12px 0 8px;
+  letter-spacing: -0.015em;
+}
+.lede {
+  font-size: 18px;
+  color: var(--ink2);
+  margin: 0 0 22px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  padding: 12px 0;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--hair);
+  margin-bottom: 28px;
+  font-size: 14.5px;
+  font-weight: 600;
+}
+a {
+  color: var(--brine);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+h2 {
+  font-size: 20px;
+  line-height: 1.25;
+  margin: 30px 0 12px;
+  font-weight: 700;
+}
+.card {
+  background: var(--sheet);
+  border: 1px solid var(--hair);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 12px 0;
+}
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.card p {
+  margin: 0;
+  color: var(--ink2);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--sheet);
+  border: 1px solid var(--hair);
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 12px 0 24px;
+}
+td, th {
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--hair);
+  text-align: left;
+  vertical-align: top;
+}
+tr:last-child td { border-bottom: none; }
+td strong { color: var(--ink); font-weight: 600; }
+ol {
+  padding-left: 20px;
+  margin: 12px 0 24px;
+}
+li { margin: 10px 0; }
+ul.langs {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+ul.langs li {
+  margin: 0;
+  background: var(--sheet);
+  border: 1px solid var(--hair);
+  border-radius: 12px;
+  padding: 13px 16px;
+}
+footer {
+  margin-top: 44px;
+  padding-top: 16px;
+  border-top: 1px solid var(--hair);
+  font-size: 13px;
+  color: var(--ink2);
+}
+</style>
+</head>
+<body>
+<div class="docket-rule-wrap" aria-hidden="true"><div class="docket-rule-heavy"></div><div class="docket-rule-thin"></div></div>
+<main>
+  <div class="kicker">Пищевые добавки: E-коды</div>
+  <h1>Справка и руководство</h1>
+  <p class="lede">Распознавание состава продуктов на устройстве, выделение нужных E-кодов и требования маркировки ЕС без аккаунта и интернета.</p>
+  <nav>
+    <a href="help.html">Справка</a>
+    <a href="privacy.html">Конфиденциальность</a>
+    <a href="../index.html">Все языки</a>
+  </nav>
+  <h2>Как устроено приложение</h2>
+  <ol><li><strong>Чтение этикетки</strong> — Наведите камеру на список ингредиентов на вкладке «Чтение» — E-коды и названия обводятся в реальном времени. Также можно выбрать фото или вставить текст.</li><li><strong>Важные коды первыми</strong> — Выберите до 3 отдельных E-кодов бесплатно или целые группы в версии Pro — они всегда будут первыми и выделены жёлтым.</li><li><strong>Требования закона ЕС</strong> — Обязательные уведомления (сульфиты &gt;10 мг/кг, шесть красителей с предупреждением для детей по Регл. 1333/2008 ст. 24 и прил. V, фенилаланин, полиолы &gt;10 %) и коды вне списка ЕС (E171, E128).</li><li><strong>Справочник на 339 E-кодов</strong> — Функции, статус в ЕС, названия на 12 языках и сырьё по спецификации ЕС без оценок и медицинских советов.</li><li><strong>Версия Pro (разовая покупка)</strong> — Открывает группы наблюдения, сохранение чтений на устройстве, сравнение двух этикеток, избранное и экспорт текста.</li></ol>
+  <h2>Частые вопросы</h2>
+  <div class="card"><h3>Загружаются ли фото на сервер?</h3><p>Нет. Распознавание выполняется локально средствами Apple Vision, снимки не сохраняются и не передаются.</p></div><div class="card"><h3>Ставит ли приложение баллы продуктам?</h3><p>Нет. Показываются только факты из сводного перечня ЕС от 18 августа 2026 года.</p></div><div class="card"><h3>Читает ли зарубежные упаковки?</h3><p>Да: 12 языков, номера INS без E и американские красители вроде Red 40.</p></div><div class="card"><h3>Восстановление покупки</h3><p>Откройте Настройки › Восстановить покупку с тем же Apple Account. Возврат средств — через reportaproblem.apple.com.</p></div>
+  <h2>Контакты</h2>
+  <p>Вопросы и замечания о приложении: <a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a>.</p>
+  <footer>Обновлено: 25 ноября 2026 · Пищевые добавки (app.klarwerk.additives) · Hayri Odabaş</footer>
+</main>
+</body>
+</html>

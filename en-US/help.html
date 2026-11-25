@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Additives: E-Number Decoder — Help &amp; Reference Guide</title>
+<link rel="canonical" href="https://hayriodabas.github.io/additives-help/en-US/help.html">
+<style>:root {
+  color-scheme: light dark;
+  --paper: #f4f1e8;
+  --sheet: #fffdf7;
+  --well: #ebe6da;
+  --hair: #dad4c6;
+  --ink: #151b19;
+  --ink2: #58615d;
+  --brine: #0b6459;
+  --brine-wash: #d7ebe5;
+  --marker: #f5cf45;
+  --on-marker: #141a1a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #111413;
+    --sheet: #1a1e1d;
+    --well: #242928;
+    --hair: #2f3634;
+    --ink: #efebe1;
+    --ink2: #a6aeaa;
+    --brine: #5bbfb0;
+    --brine-wash: #183631;
+    --marker: #f5cf45;
+    --on-marker: #141a1a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16.5px/1.64 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.docket-rule-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+}
+.docket-rule-heavy {
+  height: 6px;
+  background: var(--ink);
+}
+.docket-rule-thin {
+  height: 1px;
+  margin-top: 3px;
+  background: var(--ink);
+  opacity: 0.7;
+}
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 20px 20px 68px;
+}
+.kicker {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--marker);
+  color: var(--on-marker);
+}
+h1 {
+  font-size: 36px;
+  line-height: 1.12;
+  font-weight: 700;
+  margin: 12px 0 8px;
+  letter-spacing: -0.015em;
+}
+.lede {
+  font-size: 18px;
+  color: var(--ink2);
+  margin: 0 0 22px;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  padding: 12px 0;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--hair);
+  margin-bottom: 28px;
+  font-size: 14.5px;
+  font-weight: 600;
+}
+a {
+  color: var(--brine);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+h2 {
+  font-size: 20px;
+  line-height: 1.25;
+  margin: 30px 0 12px;
+  font-weight: 700;
+}
+.card {
+  background: var(--sheet);
+  border: 1px solid var(--hair);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 12px 0;
+}
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.card p {
+  margin: 0;
+  color: var(--ink2);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--sheet);
+  border: 1px solid var(--hair);
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 12px 0 24px;
+}
+td, th {
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--hair);
+  text-align: left;
+  vertical-align: top;
+}
+tr:last-child td { border-bottom: none; }
+td strong { color: var(--ink); font-weight: 600; }
+ol {
+  padding-left: 20px;
+  margin: 12px 0 24px;
+}
+li { margin: 10px 0; }
+ul.langs {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+ul.langs li {
+  margin: 0;
+  background: var(--sheet);
+  border: 1px solid var(--hair);
+  border-radius: 12px;
+  padding: 13px 16px;
+}
+footer {
+  margin-top: 44px;
+  padding-top: 16px;
+  border-top: 1px solid var(--hair);
+  font-size: 13px;
+  color: var(--ink2);
+}
+</style>
+</head>
+<body>
+<div class="docket-rule-wrap" aria-hidden="true"><div class="docket-rule-heavy"></div><div class="docket-rule-thin"></div></div>
+<main>
+  <div class="kicker">Additives: E-Number Decoder</div>
+  <h1>Help &amp; Reference Guide</h1>
+  <p class="lede">Read any food ingredient list on-device, highlight the additives you watch, and inspect EU labelling rules without accounts or tracking.</p>
+  <nav>
+    <a href="help.html">Help</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="../index.html">All Languages</a>
+  </nav>
+  <h2>How Additives Works</h2>
+  <ol><li><strong>Read an ingredient list</strong> — Open the Read tab and point the camera at the ingredients line on a food package. Codes such as E330, E 129, or e120 and additive names are outlined live on the image. Tap Read this label for a full breakdown, or pick a photo or type/paste text.</li><li><strong>Highlight what you watch first</strong> — Open Watch For (Shelf or Read) to select up to three single E-numbers for free, or entire additive groups with Additives Pro. Watched items appear at the top of every report with a yellow marker.</li><li><strong>Review EU labelling notices</strong> — Beneath your watch list, the report lists statutory package statements such as sulphite allergen emphasis (10 mg/kg SO2), the six children&#x27;s activity/attention colours (Reg. (EC) No 1333/2008 Art. 24 &amp; Annex V), aspartame phenylalanine notice, &gt;10% polyols notice, and codes no longer on the EU food additive list (e.g. E171 titanium dioxide, E128 Red 2G).</li><li><strong>Browse 339 EU E-numbers offline</strong> — Use Look Up to browse by number range or functional class, search by code or name in 12 languages, and check EU status and EU-specified origins (such as insects, egg, or milk sugar). No scores or medical advice are shown.</li><li><strong>Additives Pro (one-time purchase)</strong> — Unlocks whole Watch For groups and unlimited single E-numbers, saving named readings on your device, side-by-side label comparison, favourites, and plain-text export.</li></ol>
+  <h2>Frequently Asked Questions</h2>
+  <div class="card"><h3>Does Additives upload package photos?</h3><p>No. Camera frames and selected photos are processed exclusively on-device using Apple Vision text recognition and immediately discarded.</p></div><div class="card"><h3>Does it give health scores or medical advice?</h3><p>No. Additives is an offline reference decoder built from the consolidated EU food additive register (Reg. (EC) No 1333/2008 Annex II, consolidated 18 August 2026) and EU labelling law. It presents factual entries so you can decide.</p></div><div class="card"><h3>Can it read foreign packaging?</h3><p>Yes. It detects which of its 12 supported languages an ingredient list is printed in, matches names in that language, and shows results in your app language — including INS numbers printed without &#x27;E&#x27; and US dye names like Red 40.</p></div><div class="card"><h3>How do I restore Additives Pro?</h3><p>Open Settings (top left on Read, Look Up, or Shelf) and tap Restore Purchase while signed in with the same Apple Account. Refunds are handled by Apple at reportaproblem.apple.com.</p></div>
+  <h2>Contact</h2>
+  <p>Questions, corrections, or feedback about Additives: <a href="mailto:hayriodabas@gmail.com">hayriodabas@gmail.com</a>.</p>
+  <footer>Updated November 25, 2026 · Additives (app.klarwerk.additives) · Hayri Odabaş</footer>
+</main>
+</body>
+</html>
